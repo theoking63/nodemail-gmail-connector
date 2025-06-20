@@ -1,0 +1,50 @@
+{
+  "name": "nodemail-gmail-connector",
+  "version": "2.1.0",
+  "description": "Enterprise Gmail API connector with advanced authentication and retry logic for Node.js applications",
+  "main": "src/connector.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/",
+    "build": "tsc",
+    "start": "node src/connector.js",
+    "dev": "nodemon src/connector.js"
+  },
+  "keywords": [
+    "gmail",
+    "api",
+    "email",
+    "google",
+    "oauth2",
+    "connector",
+    "enterprise",
+    "automation"
+  ],
+  "author": "NodeMail Team <team@nodemail.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenebraking/nodemail-gmail-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tenebraking/nodemail-gmail-connector/issues"
+  },
+  "homepage": "https://github.com/tenebraking/nodemail-gmail-connector#readme",
+  "dependencies": {
+    "googleapis": "^126.0.1",
+    "google-auth-library": "^9.4.0",
+    "node-fetch": "^3.3.2",
+    "retry": "^0.13.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "eslint": "^8.55.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
